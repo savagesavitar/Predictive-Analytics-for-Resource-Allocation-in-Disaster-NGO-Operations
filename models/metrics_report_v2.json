@@ -1,0 +1,200 @@
+{
+  "classifier": {
+    "avg_roc_auc": 0.7941417940775095,
+    "avg_f1": 0.2552380952380952,
+    "fold_scores": [
+      {
+        "fold": 0,
+        "accuracy": 0.9583333333333334,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.9882246376811594
+      },
+      {
+        "fold": 1,
+        "accuracy": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0
+      },
+      {
+        "fold": 2,
+        "accuracy": 0.9809027777777778,
+        "precision": 1.0,
+        "recall": 0.3125,
+        "f1": 0.47619047619047616,
+        "roc_auc": 0.9942522321428571
+      },
+      {
+        "fold": 3,
+        "accuracy": 0.9791666666666666,
+        "precision": 0.7741935483870968,
+        "recall": 0.8275862068965517,
+        "f1": 0.8,
+        "roc_auc": 0.9941688205257517
+      },
+      {
+        "fold": 4,
+        "accuracy": 0.953125,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.9940632800377791
+      }
+    ]
+  },
+  "regressor": {
+    "avg_mae": 0.0,
+    "avg_mape": NaN,
+    "fold_scores": [
+      {
+        "fold": 0,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0
+      },
+      {
+        "fold": 1,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0
+      },
+      {
+        "fold": 2,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0
+      },
+      {
+        "fold": 3,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0
+      },
+      {
+        "fold": 4,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0
+      }
+    ]
+  },
+  "prophet": {
+    "district_metrics": {
+      "Baleshwar": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0
+      },
+      "Bhadrak": {
+        "mae": 0.6327755539363562,
+        "rmse": 2.1779256339497577,
+        "mape": 0.948777687118386
+      },
+      "Cuttack": {
+        "mae": 0.6714468953017306,
+        "rmse": 2.336468320670073,
+        "mape": 1.0182458202743556
+      },
+      "Ganjam": {
+        "mae": 0.2648702080968776,
+        "rmse": 1.324975778778361,
+        "mape": 1.0005221491473064
+      },
+      "Jagatsinghapur": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0
+      },
+      "Jajapur": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0
+      },
+      "Kendrapara": {
+        "mae": 0.7878780314644451,
+        "rmse": 2.67748336212015,
+        "mape": 1.0169565806935918
+      },
+      "Kendujhar": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0
+      },
+      "Khordha": {
+        "mae": 0.9671272061644833,
+        "rmse": 2.970872324391318,
+        "mape": 1.0091828763699993
+      },
+      "Mayurbhanj": {
+        "mae": 0.7443361391629209,
+        "rmse": 2.6386993827186696,
+        "mape": 1.0040098939292592
+      },
+      "Nayagarh": {
+        "mae": 0.9333724002245009,
+        "rmse": 1.8477456352808472,
+        "mape": 0.9371235591688064
+      },
+      "Puri": {
+        "mae": 0.6298489228146072,
+        "rmse": 2.2078261741965775,
+        "mape": 0.9660633462739513
+      }
+    },
+    "avg_mae": 0.4693046130971601,
+    "avg_mape": 0.987610239121957
+  },
+  "feature_importance": {
+    "classifier": {
+      "month_sin": 17,
+      "month_cos": 14,
+      "DFSI": 1,
+      "Corrected_Percent_Flooded_Area": 0,
+      "census_population": 0,
+      "households": 0,
+      "flood_lag_1m": 0,
+      "flood_lag_3m": 0,
+      "flood_lag_6m": 0,
+      "flood_lag_12m": 0,
+      "flood_roll_3m": 11,
+      "flood_roll_12m": 9,
+      "pop_density_score": 0,
+      "pop_x_flood_severity": 0,
+      "district_encoded": 0,
+      "season_Monsoon": 0,
+      "season_Post-Monsoon": 0,
+      "season_Pre-Monsoon": 0,
+      "season_Winter": 0
+    },
+    "regressor": {
+      "month_sin": 0,
+      "month_cos": 0,
+      "DFSI": 0,
+      "Corrected_Percent_Flooded_Area": 0,
+      "census_population": 0,
+      "households": 0,
+      "flood_lag_1m": 0,
+      "flood_lag_3m": 0,
+      "flood_lag_6m": 0,
+      "flood_lag_12m": 0,
+      "flood_roll_3m": 0,
+      "flood_roll_12m": 0,
+      "pop_density_score": 0,
+      "pop_x_flood_severity": 0,
+      "district_encoded": 0,
+      "season_Monsoon": 0,
+      "season_Post-Monsoon": 0,
+      "season_Pre-Monsoon": 0,
+      "season_Winter": 0
+    }
+  },
+  "dataset_summary": {
+    "n_records": 3456,
+    "n_districts": 12,
+    "flood_event_rate": 0.03298611111111111,
+    "date_range": "2000-01-01 00:00:00 to 2023-12-01 00:00:00"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "lightgbm": {
+    "cv_mae_mean": 0.03186812888283928,
+    "cv_mae_std": 0.017209089220386664,
+    "cv_rmse_mean": 0.13590129926316719,
+    "cv_rmse_std": 0.06865046373991199,
+    "cv_mape_mean": 0.5354627914683476,
+    "cv_scores": [
+      {
+        "fold": 0,
+        "mae": 0.04897832940520359,
+        "rmse": 0.1716188201791836,
+        "mape": 0.47970320911832914
+      },
+      {
+        "fold": 1,
+        "mae": 0.0003203478683855424,
+        "rmse": 0.0003590011122994959,
+        "mape": 0
+      },
+      {
+        "fold": 2,
+        "mae": 0.027621355535474863,
+        "rmse": 0.1492622575671142,
+        "mape": 0.5792393924357591
+      },
+      {
+        "fold": 3,
+        "mae": 0.04148841285197101,
+        "rmse": 0.17961475377436759,
+        "mape": 0.5074700364657112
+      },
+      {
+        "fold": 4,
+        "mae": 0.04093219875316139,
+        "rmse": 0.17865166368287097,
+        "mape": 0.575438527853591
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "month_sin",
+        "importance": 315
+      },
+      {
+        "feature": "month_cos",
+        "importance": 215
+      },
+      {
+        "feature": "DFSI",
+        "importance": 140
+      },
+      {
+        "feature": "flood_roll_12m",
+        "importance": 97
+      },
+      {
+        "feature": "flood_roll_3m",
+        "importance": 57
+      },
+      {
+        "feature": "season_Monsoon",
+        "importance": 46
+      },
+      {
+        "feature": "Corrected_Percent_Flooded_Area",
+        "importance": 38
+      },
+      {
+        "feature": "season_Post-Monsoon",
+        "importance": 27
+      },
+      {
+        "feature": "season_Pre-Monsoon",
+        "importance": 24
+      },
+      {
+        "feature": "season_Winter",
+        "importance": 14
+      },
+      {
+        "feature": "census_population",
+        "importance": 10
+      },
+      {
+        "feature": "flood_lag_12m",
+        "importance": 0
+      },
+      {
+        "feature": "flood_lag_6m",
+        "importance": 0
+      },
+      {
+        "feature": "flood_lag_3m",
+        "importance": 0
+      },
+      {
+        "feature": "flood_lag_1m",
+        "importance": 0
+      },
+      {
+        "feature": "households",
+        "importance": 0
+      },
+      {
+        "feature": "district_encoded",
+        "importance": 0
+      },
+      {
+        "feature": "pop_density_score",
+        "importance": 0
+      },
+      {
+        "feature": "pop_x_flood_severity",
+        "importance": 0
+      }
+    ],
+    "n_features": 19
+  },
+  "prophet": {
+    "districts_trained": [],
+    "district_metrics": {},
+    "avg_mae": NaN,
+    "avg_rmse": NaN,
+    "avg_mape": NaN
+  },
+  "dataset": {
+    "n_records": 3456,
+    "n_districts": 12,
+    "date_range": "2000-01-01 00:00:00 to 2023-12-01 00:00:00",
+    "flood_event_rate": 0.03298611111111111
+  }
+}
